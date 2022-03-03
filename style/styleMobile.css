@@ -1,0 +1,47 @@
+/* mobile style */
+
+/* ------------------------------------------------------------------------- */
+@media screen and (max-width: 1024px) {
+  .navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+  }
+
+  .navbar #myLinks {
+    display: none;
+    float: none;
+    overflow: auto;
+  }
+
+  .navbar #myLinks a {
+    border-top: 1px solid #04aa6d;
+    box-shadow: 0 0 1px 0.1px #333;
+    border-left: 5px solid #333;
+  }
+
+  .navbar a {
+    color: #eaeaea;
+    padding: 14px 16px;
+    font-size: 17px;
+    display: block;
+  }
+
+  .navbar a.icon {
+    background: #eaeaea;
+    color: #04aa6d;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .navbar a:hover {
+    background-color: #eaeaea;
+    color: #333;
+    margin-left: 1rem;
+    transition: 0.3s;
+  }
+}
+
+/* -------------------------------------------------------------------------- */
